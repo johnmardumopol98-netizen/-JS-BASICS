@@ -2,33 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dynamic Item List</title>
 </head>
 <body>
-    <table>
-         <tr>
-            <td>
-                <label for="num1">First Number:</label>
-            </td>
-            <td>
-                <input type="text" name="num1" id="num1" placeholder="Enter first number">
-            </td>
-        </tr>
 
-        <tr>
-            <td></td>
-            <td>
-                <button onclick="calculate()">Calculate</button>
-                <button onclick="clearEntries()">Clear Entries</button>
-            </td>
-        </tr>
-    </table>
+    <h2>Add Items to List</h2>
 
-    <p style="font-weight: bold;">Elements inside the array:</p>
-    <p id="elements"></p>
-    <p>Sum:  <span id="sum"></span></p>
+    <input type="text" id="itemInput" placeholder="Enter item name">
+    <button onclick="addItem()">Add Item</button>
 
-    <script src="function.js"></script>
+    <ul id="itemList"></ul>
+
+    <script src="script.js"></script>
 </body>
 </html>
