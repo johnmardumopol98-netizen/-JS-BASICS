@@ -34,10 +34,3 @@ function clearEntries() {
     num1Txt.value = "";
     resultTxt.innerHTML = "";
 }
-
-
-
-elementTxt.innerHTML = arr.join("<br>");
-sumTxt.innerHTML = sum;
-
-console.log(arr);
