@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Text Concatenator</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="num1">NAME:</label>
+            </td>
+            <td>
+                <input type="text" name="num1" id="num1" placeholder="Enter NAME">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num2">EMAIL:</label>
+            </td>
+            <td>
+                <input type="text" name="num2" id="num2" placeholder="Enter EMAIL">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="concatenate()">Concatenate</button>
+                <button onclick="clearEntries()">Clear Entries</button>
+            </td>
+        </tr>
+    </table>
+
+    <p style="font-weight: bold;">RESULT</p>
+    <p>NAME: <span id="sum"></span></p>
+    <p>EMAIL: <span id="sum2"></span></p>
+
+    <script src="function.js"></script>
+</body>
+</html>
