@@ -12,4 +12,6 @@ function clearEntries() {
     num1Txt.value = "";
     num2Txt.value = ""
     resultTxt.innerHTML = "";
+    result2Txt.innerHTML = "";
 }
+
